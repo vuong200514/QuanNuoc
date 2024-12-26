@@ -6,13 +6,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>INSPINIA | Login 2</title>
-
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <title>Login - BlackPink Coffee</title>
+        <link href="account/css/style.css" rel="stylesheet">
 
     </head>
 
@@ -22,28 +17,27 @@
             <div class="row">
 
                 <div class="col-md-6">
-                    <h2 class="font-bold">Welcome to IN+</h2>
-
+                    <h2 class="font-bold">Welcome to BlackPink Coffee</h2>
                     <p>
-                        Perfectly designed and precisely prepared admin theme with over 50 pages with extra new web app views.
+                        Chào mừng bạn đến với BlackPink Coffee, nơi bạn có thể thư giãn, tận hưởng cà phê thơm ngon, và tận hưởng không gian ấm cúng. Chúng tôi cung cấp những trải nghiệm tuyệt vời cho mọi khách hàng.
                     </p>
 
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        BlackPink Coffee tự hào là một trong những quán cà phê được yêu thích nhất trong thành phố, phục vụ không chỉ cà phê mà còn nhiều món ăn nhẹ độc đáo. Hãy tham gia cùng chúng tôi và khám phá hương vị riêng biệt!
                     </p>
 
                     <p>
-                        When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Chúng tôi cam kết mang lại dịch vụ tốt nhất và không gian thoải mái nhất cho tất cả khách hàng.
                     </p>
 
                     <p>
-                        <small>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</small>
+                        <small>Đừng quên kiểm tra chương trình khuyến mãi đặc biệt của chúng tôi vào cuối tuần!</small>
                     </p>
 
                 </div>
                 <div class="col-md-6">
                     <div class="ibox-content">
-                        <form class="m-t" role="form" action="index.html">
+                        <form class="m-t" role="form" action="home" method="HEAD">
                             <div class="form-group">
                                 <input type="email" class="form-control" placeholder="Username" required="">
                             </div>
@@ -53,27 +47,15 @@
                             <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
 
                             <a href="#">
-                                <small>Forgot password?</small>
+                                <small>Quên mật khẩu?</small>
                             </a>
 
                             <p class="text-muted text-center">
-                                <small>Do not have an account?</small>
+                                <small>Chưa có tài khoản?</small>
                             </p>
-                            <a class="btn btn-sm btn-white btn-block" href="register.html">Create an account</a>
+                            <a class="btn btn-sm btn-white btn-block" href="register.html">Tạo tài khoản</a>
                         </form>
-                        <p class="m-t">
-                            <small>Inspinia we app framework base on Bootstrap 3 &copy; 2014</small>
-                        </p>
                     </div>
-                </div>
-            </div>
-            <hr/>
-            <div class="row">
-                <div class="col-md-6">
-                    Copyright Example Company
-                </div>
-                <div class="col-md-6 text-right">
-                <small>© 2014-2015</small>
                 </div>
             </div>
         </div>

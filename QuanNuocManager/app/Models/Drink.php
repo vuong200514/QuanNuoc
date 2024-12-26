@@ -12,9 +12,8 @@ class Drink extends Model
     protected $table = 'drink';
     
     protected $fillable = [
-        'drinkID',
         'drinkName',
         'drinkPrice',
-        'ammount',
+        'mota',
     ];
 }

@@ -53,39 +53,42 @@
 
 
         <div class="col">
-            Fullname
+            DrinkName
         </div>
         <div class="col">
-            Student ID
+            Price
         </div>
         <div class="col">
-            ID
+            Description
         </div>
+        <div class="col">
 
+        </div>
 
     </div>
-
-        <form action="/editDeleteStudent" method="POST">
+    <form action="/deleteDrink" method="POST">
         @csrf
          
-        @foreach($students as $st)
-            <div class="row align-items-end" style="background-color: #e3f2fd; color:green; padding: 6px">
+        @foreach($drinks as $drink)
+            <div class="row align-items" style="background-color: #e3f2fd; color:green; padding: 6px">
 
                 <div class="col">
 
-                    {{ $st->studentFullName}}
+                    {{ $drink->drinkName}}
 
                 </div>
                 <div class="col">
 
-                    {{ $st->studentIDNumber}}
+                    {{ $drink->drinkPrice}}
 
                 </div>
                 <div class="col">
 
-                    {{ $st->id}}
+                    {{ $drink->mota}}
 
                 </div>
+
+
             </div>
             <div class="row " style="background-color: white; "></div>
            

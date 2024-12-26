@@ -7,16 +7,17 @@ use App\Http\Controllers\Backend\DrinkController;
 Route::get('/', function () {
     return view('Backend.auth.login');
 });
-// Route::get('/', function () {
-//     return view('index');
-// });
-
-// Route::get('/home', function () {
-//     return view('home');
-// });
+Route::get('index', function () {
+    return view('index');
+});
 
 Route::get('login', [AuthController::class, 'login']) -> name('auth.login');
-Route::get('home', [DrinkController::class, 'tenquan']);
+Route::get('home', [AuthController::class, 'tenquan']);
 
-// Route::get('/test', [StudentController::class, 'listStudent']);
-// Route::get('/student', 'App\Http\Controllers\StudentController@listStudent');
+Route::get('menu', [DrinkController::class, 'listdrinks']);
+
+
+Route::post('/deleteDrink/{id}', 'App\Http\Controllers\DrinkController@deleteDrink')->name('delete');
+Route::get('/deleteDrink/{id}', 'App\Http\Controllers\DrinkController@deleteDrink')->name('getDelete');
+Route::get('/editDrink/{id}', 'App\Http\Controllers\DrinkController@editDrink')->name('getEdit');
+Route::post('/saveDrink/{id}', 'App\Http\Controllers\DrinkController@saveDrink')->name('saveDrink');

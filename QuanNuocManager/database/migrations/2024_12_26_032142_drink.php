@@ -11,12 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('students', function (Blueprint $table) {
+        Schema::dropIfExists('drink');
+        Schema::create('drink', function (Blueprint $table) {
             $table->id();
-            $table->string('drinkID');
             $table->string('drinkName');
-            $table->float('drinkPrice',8 , 2);
-            $table->integer('amount');
+            $table->float('drinkPrice');
+            $table->string('mota');
             $table->timestamps();
         });
     }

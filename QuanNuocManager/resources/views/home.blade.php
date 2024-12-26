@@ -10,13 +10,13 @@
 	<div id="page">
 		<div>
 			<div id="header">
-				<a href="home.html"><img src="images/logo.png" alt="BlackPink Coffee Logo"></a>
+				<a href="home.blade.php"><img src="images/logo.png" alt="BlackPink Coffee Logo"></a>
 				<ul>
 					<li class="current">
-						<a href="home.html">Home</a>
+						<a href="home">Home</a>
 					</li>
 					<li>
-						<a href="menu.html">Menu</a>
+						<a href="menu">Menu</a>
 					</li>
 					<li>
 						<a href="locations.html">Order</a>
